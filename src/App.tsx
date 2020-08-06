@@ -1,23 +1,35 @@
 import React, {useState} from 'react'; //gonna use hooks n shit
 import QuestionCard from './components/QuestionCard';
-import {fetchQuizQuestions} from './API';
-import {Difficulty} from './API'
+import {fetchQuizQuestions, QuestionState, Difficulty} from './API';
+
+
+type AnswerObject = {
+  question: string,
+  answer: string,
+  correct: boolean,
+  correntAnswer: string
+}
+
+const TOTAL_QUESTIONS = 10;
 
 const App = () =>  {
-  const [loading, setLoadding] = useState(false);
-  const [question, setQuestions] = useState([]);
-  const [number, setNumber] = useState(0);
-  const [userAnswer, setuserAnswer] = useState([]);
-  const [score, setScore] = useState(0);
-  const [gameOver, setgameOver] = useState(true);
-  
-  const TOTAL_QUESTIONS = 10;
-  
-  const startTrivia = async () => {};
-  const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {};
-  const nextQuestion = () =>  {}
-  console.log(fetchQuizQuestions(TOTAL_QUESTIONS, Difficulty.EASY));
+ const [loading, setLoading] = useState(false);
+ const [question, setQuestions] = useState([]);
+ const [number, setNumber] = useState(0);
+ const [userAnswer, setuserAnswer] = useState([]);
+ const [score, setScore] = useState(0);
+ const [gameOver, setgameOver] = useState(true);
 
+ const startTrivia = async () => {
+ setLoading(true);
+ setgameOver(false);
+    
+ const newQuestions = await fetchQuizQuestions(TOTAL_QUESTIONS, Difficulty.EASY);
+ setQuestions(newQuestions);
+ };
+
+const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {};
+const nextQuestion = () =>  {}
   return (
     <div className="App">
       <h1>React Quizz</h1>
