@@ -1,7 +1,6 @@
 import React, {useState} from 'react'; //gonna use hooks n shit
 import QuestionCard from './components/QuestionCard';
 import {fetchQuizQuestions, QuestionState, Difficulty} from './API';
-import {GlobalStyle} from './App.styles';
 
 
 export type AnswerObject = {

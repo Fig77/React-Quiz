@@ -19,3 +19,11 @@ body {
   box-sizing: border-box;
 }
 `;
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+
+`;
+

@@ -1,5 +1,6 @@
 import React from 'react'
 import {AnswerObject} from '../App';
+import {Wrapper} from '../App.styles';
 
 type Props = {
   question: string,
@@ -12,9 +13,12 @@ type Props = {
 
 const QuestionCard: React.FC<Props> = ({question, answer, callback, userAnswer, questnumb, totalQuestions}) =>
 (  
+  
   <div>
+    <Wrapper />
     <p>Question Card</p>
     <p dangerouslySetInnerHTML={{__html: question}}></p>
+
     <div>
       {answer.map((answer) => (
         <div key={answer}>

@@ -15,11 +15,7 @@ export enum Difficulty {
  HARD = 'hard'
 };
 
-// needs fixing
-const aux = (arr: any[]) => {
-  [...arr].sort(() => Math.random() - 0.5);
-  return arr;
-};
+const aux = (arr: any[]) => [...arr].sort(() => Math.random() - 0.5);
 
 export const fetchQuizQuestions = async (amount: number, difficulty: Difficulty) => {
   const endpoint = `https://opentdb.com/api.php?amount=${amount}&difficulty=${difficulty}`;
