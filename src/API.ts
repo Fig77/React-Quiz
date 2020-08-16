@@ -15,8 +15,9 @@ export enum Difficulty {
  HARD = 'hard'
 };
 
+// needs fixing
 const aux = (arr: any[]) => {
-  arr.sort(() => Math.random() - 0.5);
+  [...arr].sort(() => Math.random() - 0.5);
   return arr;
 };
 
@@ -25,6 +26,6 @@ export const fetchQuizQuestions = async (amount: number, difficulty: Difficulty)
   const data = await (await fetch(endpoint)).json();
   return await data.results.map((question: Question) => ({
     ...question,
-    answers: aux([...question.incorrect_answers]),
+    answers: aux([...question.incorrect_answers, question.correct_answer]),
   }));
 };
