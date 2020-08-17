@@ -4,13 +4,14 @@
 <p align="center">
   <h2 align="center"> React-Trivia game </h2>
   <p align="center">
-  	 React-Trivia
+  	 
     <br />
     <a href="https://github.com/Fig77/Template"><strong>Explore the docs »</strong></a>
     <br />
 </p>
 
 <!--THIS SHOULD BE ABOUT BRO, SMALL ABOUT HERE-->
+# React-Trivia
 Basic trivia game that takes 10 random questions from [OpenTrivia API](https://opentdb.com).Developed with React and TypeScript.
 
 Index
@@ -52,12 +53,17 @@ Index
 By default, the server will start in development on localhost, port 3000.
 
 ## Screenshots
+
   <img src="assets/menu.png" alt="Here you can put a header picture" width="718" height="394">
   <br>
   <img src="assets/menu.png" alt="Here you can put a header picture" width="718" height="394">
+  
 ## Live
+
  `TBA`
+ 
 ## Future Improvements
+
  * Add a questions counter with a current/total format.
 
 ## Contributing
