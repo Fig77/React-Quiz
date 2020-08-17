@@ -4,10 +4,9 @@
 <p align="center">
   <h2 align="center"> React-Trivia game </h2>
   <p align="center">
-  	 
-    <br />
-    <a href="https://github.com/Fig77/Template"><strong>Explore the docs »</strong></a>
-    <br />
+  <br />
+    <a href="https://github.com/Fig77/React-Quiz"><strong>Explore the docs »</strong></a>
+  <br />
 </p>
 
 <!--THIS SHOULD BE ABOUT BRO, SMALL ABOUT HERE-->
@@ -16,9 +15,9 @@ Basic trivia game that takes 10 random questions from [OpenTrivia API](https://o
 
 Index
 =====
-   * [Built with]
+   * [Built with](#built-with)
    * [Installation](#installation)
-     - [Prequisites]
+     - [Prerequisites](#prerequisites)
    * [Usage](#usage)
       - [Screenshots](#screenshots)
       - [Live](#live)
