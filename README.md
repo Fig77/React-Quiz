@@ -1,44 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Issues][issues-shield]][issues-url]
+<br />
+<p align="center">
+  <h2 align="center"> React-Trivia game </h2>
+  <p align="center">
+  <br />
+    <a href="https://github.com/Fig77/React-Quiz"><strong>Explore the docs »</strong></a>
+  <br />
+</p>
 
-## Available Scripts
+<!--THIS SHOULD BE ABOUT BRO, SMALL ABOUT HERE-->
+# React-Trivia
+Basic trivia game that takes 10 random questions from [OpenTrivia API](https://opentdb.com).Developed with React and TypeScript.
 
-In the project directory, you can run:
+Index
+=====
+   * [Built with](#built-with)
+   * [Installation](#installation)
+     - [Prerequisites](#prerequisites)
+   * [Usage](#usage)
+      - [Screenshots](#screenshots)
+      - [Live](#live)
+   * [Future Improvements](#future-improvements)
+   * [Contributing](#contributing)
+   
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Node.js
+* React
+* React-DOM
+* styled-components
+* React-Create-App
+* TypeScript
+* CSS
+## Installation
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Prerequisites
+- Node
+- NPM
+- React
+---
 
-### `npm test`
+* Clone the repo with `git clone https://github.com/Fig77/React-Quiz.git`, or download as a ZIP.
+* Run `npm install`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+* Run `npm start`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+By default, the server will start in development on localhost, port 3000.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <img src="Readme/one.png" alt="Here you can put a header picture" width="718" height="394">
+  
+  ---
+  
+  <img src="Readme/two.png" alt="Here you can put a header picture" width="718" height="394">
+  
+## Live
 
-### `npm run eject`
+ `TBA`
+ 
+## Future Improvements
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ * Add a questions counter with a current/total format.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Please make sure to update tests as appropriate.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Learn More
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/badge/Contributors-1-brightgreen
+[contributors-url]: https://github.com/Fig77/Gradients-Project/graphs/contributors
+[issues-shield]: https://img.shields.io/badge/issues-0-%2300ff00
+[issues-url]: https://github.com/Fig77/Template/issues
+[product-screenshot]: assets/menu.png
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
