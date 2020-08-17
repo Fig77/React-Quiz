@@ -53,9 +53,11 @@ By default, the server will start in development on localhost, port 3000.
 
 ## Screenshots
 
-  <img src="assets/menu.png" alt="Here you can put a header picture" width="718" height="394">
-  <br>
-  <img src="assets/menu.png" alt="Here you can put a header picture" width="718" height="394">
+  <img src="Readme/one.png" alt="Here you can put a header picture" width="718" height="394">
+  
+  ---
+  
+  <img src="Readme/two.png" alt="Here you can put a header picture" width="718" height="394">
   
 ## Live
 
